@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <script type="text/javascript" src="登录.js"></script>
+    <link rel="stylesheet" href="./css/登录.css">
+</head>
+ 
+<body>
+<div id="login_frame">
+    <p>请登录</p>
+    <form method="post" action="login.js">
+ 
+        <p><label class="label_input">用户名</label><input type="text" id="username" class="text_field"/></p>
+        <p><label class="label_input">密码</label><input type="text" id="password" class="text_field"/></p>
+ 
+        <div id="login_control">
+            <a href="./主页.html"><input type="button" id="btn_login" value="登录" onclick="login();"/></a>
+            <a id="forget_pwd" href="forget_pwd.html">忘记密码？</a>
+        </div>
+    </form>
+</div>
+ 
+</body>
+</html>

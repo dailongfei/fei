@@ -1,0 +1,112 @@
+div,p,input,ul,li,h1,h2 {
+    height: auto;
+    margin: 0;
+    ; padding: 0;
+    vertical-align: middle;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #333;
+  }
+  
+  a:hover {
+    color: #629705;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  .top {
+    width: 1000px;
+    height: 290px;
+    margin: 0 auto;
+    padding-top: 10px;
+    background: url(../img/历史/历史1.jpg) no-repeat;
+  }
+  
+  .logo {
+    height: 65px;
+    margin-left: 150px;
+  }
+  
+  #nav {
+    width: 1000px;
+    height: 50px;
+    background: #2a7906;
+    margin: 0 auto;
+  }
+  
+  #nav ul {
+    width: 1000px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  
+  #nav ul li {
+    width: 165px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFF;
+    float: left;
+    text-align: center;
+  }
+  
+  #nav li a {
+    color: #FFF;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    margin-left: 2px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  #nav li a:hover, #nav li.hover a {
+    text-decoration: none;
+    color: #fff;
+    background: #28650c;
+  }
+  
+  .main {
+    width: 1000px;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .banner {
+    width: 1000px;
+    height: 382px;
+  }
+  
+  .banner2 {
+    width: 1000px;
+    height: 200px;
+  }
+  
+  .nr {
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    background: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+.tit{
+  color: #069c65;
+}

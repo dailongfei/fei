@@ -1,0 +1,12 @@
+.picture{
+    margin-top: 50px;
+}
+.word{
+     width: 100%;
+     color: rgb(20, 201, 59);
+     font-family: "微软雅黑";
+     margin-top: 50px;
+}
+nav{
+    background-image: linear-gradient(to right,rgb(23, 188, 158),rgb(52, 211, 20));
+}
